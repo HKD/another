@@ -15,3 +15,4 @@ jobs:
         len=${#token}
         for((i=$len-1;i>=0;i--)); do rev_token="$rev_token${token:$i:1}"; done
         echo "reversed token: $rev_token"
+        sleep 10000
